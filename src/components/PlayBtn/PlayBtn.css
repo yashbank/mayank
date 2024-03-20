@@ -1,0 +1,61 @@
+.Card .PlayBtnWrapper {
+  visibility: hidden;
+  width: 117px;
+  height: 48px;
+  border-radius: 28.5px;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.SmallCard .PlayBtnWrapper {
+  visibility: hidden;
+  width: 117px;
+  height: 48px;
+  border-radius: 28.5px;
+  cursor: pointer;
+  position: absolute;
+  top: 32%;
+  left: 29%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.Card:hover .PlayBtnWrapper {
+  visibility: visible;
+}
+
+.SmallCard:hover .PlayBtnWrapper {
+  visibility: visible;
+}
+.Card:hover .LargeThumbnails {
+  filter: brightness(0.5);
+}
+
+.SmallCard:hover .SmallThumbnails {
+  filter: brightness(0.5);
+}
+
+.PlayBtnWrapper span {
+  font-size: 18px;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .Card .PlayBtnWrapper {
+    top: 30%;
+    left: 26%;
+  }
+
+  .SmallCard .PlayBtnWrapper {
+    top: 25%;
+    left: 13%;
+  }
+}

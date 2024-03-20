@@ -1,0 +1,50 @@
+.SmallCard {
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+  }
+
+  .SmallCard{
+    width: 280px;
+    height: 226px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .SmallCard .SmallThumbnails{
+    width: 280px;
+    height: 174px;
+    border-radius: 8px;
+    filter: brightness(1);
+
+  }
+
+  .SmallCardInnerInfo{
+    margin-top: 8px;
+    font-size: 13px;
+    display: flex;
+    column-gap:19px ;
+    color: white;
+
+  }
+  .SmallCardInfoTittle{
+    text-align: left;
+    font-size: 18px;
+    color: white;
+  }
+
+  @media (max-width : 550px) {
+    .SmallCard{
+      width: 164px;
+      height: 154px;
+
+    }
+     .SmallCard .SmallThumbnails{
+      width: 164px;
+      height:110px ;
+    }
+    
+  }

@@ -1,0 +1,23 @@
+#GridOuterWrapper {
+  width: 100%;
+}
+
+#GridTittle {
+  margin: 0;
+  text-align: left;
+  color: white;
+  font-size: 32px;
+}
+#grid-container {
+  width: 100%;
+  display: flex;
+  column-gap: 40px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 550px) {
+  #grid-container {
+    column-gap: 0px;
+    justify-content: space-between;
+  }
+}

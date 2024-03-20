@@ -1,0 +1,35 @@
+.BookMarkIcon{
+    width: 11.67px;
+    height: 14px;
+}
+.LargeBookMarkIconWrapper{
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    right: 0%;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+    margin-top: 16px;
+}
+
+.SmallBookMarkIconWrapper{
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    right: 0%;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    margin-top: 16px;
+}

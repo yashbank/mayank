@@ -1,0 +1,64 @@
+#SideBar {
+  height: 95vh;
+  width: 96px;
+  flex-shrink: 0;
+  background-color: #161d2f;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 75px;
+}
+
+#SideBar svg {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+#LogoWrapper {
+  margin-top: 32px;
+}
+#LogoWrapper img {
+  cursor: pointer;
+  width: 32px;
+  height: 25.6px;
+}
+
+#SideBarMenuWrapper{
+  cursor: pointer;
+}
+
+#SideBarMenuWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+
+.ActiveIcon{
+  filter: brightness(0) invert(1);
+}
+
+#SideBarMenuWrapper img:hover{
+ filter:grayscale(46%) brightness(75%) sepia(183%) hue-rotate(-53deg) saturate(511%) contrast(1)
+}
+
+@media (max-width : 550px) {
+  #SideBar {
+    border-radius: 0px;
+    width: 100vw;
+    height: 56px;
+    flex-direction: row;
+  }
+  #SideBarMenuWrapper{
+    flex-direction: row;
+    margin: auto;
+    column-gap: 24px;
+  }
+  #LogoWrapper{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 0px;
+  }
+}
